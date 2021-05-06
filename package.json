@@ -1,0 +1,24 @@
+{
+  "name": "graphql-compose-mongoose-codesandbox",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "apollo-server": "2.24.0",
+    "graphql": "^15.5.0",
+    "graphql-compose": "^8.0.1",
+    "graphql-compose-mongoose": "^9.3.0",
+    "graphql-tag": "^2.12.4",
+    "mongoose": "^5.12.7"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_OPTIONS=--experimental-top-level-await nodemon --signal SIGHUP index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.5.0",
+    "mongodb-memory-server-global-3.6": "6.9.6",
+    "nodemon": "2.0.7"
+  }
+}
